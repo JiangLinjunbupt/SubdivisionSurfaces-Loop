@@ -8,7 +8,7 @@ The actual masks of vertex point and edge point I used in the project:
 ![mask for edge point](https://github.com/tlsshh/SubdivisionSurfaces-Loop/raw/master/Screenshots/mask_edgepoint.png)
 ![mask for vertex point](https://github.com/tlsshh/SubdivisionSurfaces-Loop/raw/master/Screenshots/mask_vertexpoint.png)
 
-<img src="http://latex.codecogs.com/gif.latex?\beta=\frac{1}{k}(\frac{5}{8}-(\frac{3}{8}+\frac{1}{4}\cos\frac{2\pi }{k} )^2)" />
+![](http://latex.codecogs.com/gif.latex?\\beta=\frac{1}{k}(\frac{5}{8}-(\frac{3}{8}+\frac{1}{4}\cos\frac{2\pi}{k})^2))
 
 This project can only work on triangle meshes because I haven't added any function for triangulation. Besides, the model must be a closed model.
 
