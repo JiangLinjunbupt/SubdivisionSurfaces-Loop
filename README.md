@@ -23,21 +23,19 @@ I'm sorry for I haven't added any comments into the code, because I just want to
 	- OpenCV 3.2.0 
 
 ## Instruction
-1. Input file
+##### 1. Input file
 There are some examples in `obj` directory. The files there are standard obj files (I just changed the postfix).
 Only support a specific range of obj files: 
-	- Triangle meshes
-	- Only "v" and "f", any other commands will be ignored
-	- A closed model
-	- You can set vertex color in obj file, but the color will be ignored.
-2. Scene roaming
-	- Object rotation: 
-	Move your mouse, the model will rotate around an axis. If press "shift" at the same time, the model will rotate around another axis
-	- Camera translation: 
-	Up or Down or Left or Right key.
-3. Display mode
+- Triangle meshes
+- Only "v" and "f", any other commands will be ignored
+- A closed model
+- You can set vertex color in obj file, but the color will be ignored.
+##### 2. Scene roaming
+- Object rotation:Move your mouse, the model will rotate around an axis. If press "shift" at the same time, the model will rotate around another axis
+- Camera translation:Up or Down or Left or Right key.
+##### 3. Display mode
 Press "s" to switch the mode: Mesh or Wireframe or Mesh_and_Wireframe.
-4. Subdivide
+##### 4. Subdivide
 Press "a" to increase the subdivision level. Press "d" to decrease the subdivision level.
 
 ## Results
